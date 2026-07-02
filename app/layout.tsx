@@ -9,31 +9,32 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ibiimemon.com/"),
-  title: "Ibrahim Memon - SWE | IXD | UX - Developer Portfolio",
+  metadataBase: new URL("https://nakulkumar.dev/"),
+  title: "Nakul Kumar - Full Stack Developer | React Native | Node.js Developer Portfolio",
   description:
-    "Developer Portfolio of Frontend & Mobile App Developer from Pakistan with 3+ years of expertise. Senior Software Engineer. Specializing mobile apps, UX, and JavaScript technologies.",
+    "Developer Portfolio of Nakul Kumar, a Full Stack Developer and React Native Developer with 1.5+ years of experience building scalable web and mobile applications.",
   keywords: [
     "Developer",
     "Portfolio",
-    "Developer Portflio",
-    "Ibrahim Memon",
-    "Ibrahim",
-    "IbiiMemon",
-    "IbrahimMemon",
-    "Ibrahim_Memon",
+    "Developer Portfolio",
+    "Nakul Kumar",
+    "Nakul",
+    "NakulKumar",
+    "Nakul_Kumar",
     "Next.js",
     "ReactNative",
     "Android",
+    "Node.js",
+    "PostgreSQL",
   ],
   openGraph: {
-    title: "Ibrahim Memon - SWE | IXD | UX",
+    title: "Nakul Kumar - Full Stack Developer | React Native | Node.js",
     description:
-      "Frontend & Mobile App Developer from Pakistan with 3+ years of expertise. Senior Software Engineer. Specializing mobile apps, UX, and JavaScript technologies.",
+      "Developer Portfolio of Nakul Kumar, a Full Stack Developer and React Native Developer with 1.5+ years of experience building scalable web and mobile applications.",
     images: "/OpenGraph.jpg",
   },
   alternates: {
-    canonical: "https://ibiimemon.com/",
+    canonical: "https://nakulkumar.dev/",
   },
 };
 export default function RootLayout({
@@ -50,12 +51,12 @@ export default function RootLayout({
             __html: JSON.stringify({
               "@context": "http://schema.org",
               "@type": "Person",
-              name: "Ibrahim Memon",
-              jobTitle: "Software Engineer",
-              url: "https://ibiimemon.com",
+              name: "Nakul Kumar",
+              jobTitle: "Full Stack Developer",
+              url: "https://github.com/NakulKumar409",
               sameAs: [
-                "https://www.linkedin.com/in/ibrahimmemonn/",
-                "https://github.com/ibrahimmemonn",
+                "https://www.linkedin.com/in/nakul-kumar-727b65233/",
+                "https://github.com/NakulKumar409",
               ],
             }),
           }}
